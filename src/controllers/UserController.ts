@@ -19,7 +19,7 @@ class UserController {
             });
         }
 
-        const  user = usersRepository.create({
+        const user = usersRepository.create({
             name, email
         });
 
